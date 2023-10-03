@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Trial",
+    "version": "1.0",
+    "description": "A trial for creating a Chrome extension",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "webRequest",
+      "webRequestBlocking",
+      "declarativeNetRequestFeedback",
+      "declarativeNetRequestWithHostAccess",
+      "webNavigation"
+    ],
+  
+    "action": {
+      "default_popup": "popup.html"
+    },
+  
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
